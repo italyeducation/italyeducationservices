@@ -307,3 +307,17 @@ footer {
     display: block;
     border-radius: 12px;
 }
+.video-container {
+  width: 100%;
+  max-width: 800px;
+  margin: 30px auto;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.video-container video {
+  width: 100%;
+  height: auto;
+  display: block;
+}
